@@ -263,83 +263,83 @@
 
 // console.log(geriKalanlar);
 
-const topla = (a,b) => a+b
+// const topla = (a,b) => a+b
 
-console.log(topla(1,5,2,7,9));
+// console.log(topla(1,5,2,7,9));
 
-const ucanAraclar = ["helicopter", "drone", "ucak", "fuze"]
-const karaAracları = ["araba", "bisiklet", "marti"]
+// const ucanAraclar = ["helicopter", "drone", "ucak", "fuze"]
+// const karaAracları = ["araba", "bisiklet", "marti"]
 
-const tasitlar = [ucanAraclar, karaAracları]
-console.log(tasitlar);
+// const tasitlar = [ucanAraclar, karaAracları]
+// console.log(tasitlar);
 
-const flatTasitlar = [...ucanAraclar, ...karaAracları]
+// const flatTasitlar = [...ucanAraclar, ...karaAracları]
 
-console.log(flatTasitlar);
+// console.log(flatTasitlar);
 
-const cumle = "Uzun ince bir yoldayim" 
+// const cumle = "Uzun ince bir yoldayim" 
 
-const cumleDizisi = [...cumle]
-console.log(cumleDizisi);
-console.log(cumle.split(" "));
+// const cumleDizisi = [...cumle]
+// console.log(cumleDizisi);
+// console.log(cumle.split(" "));
 
-const numbers = [1,3,4,5]
+// const numbers = [1,3,4,5]
 
-console.log(Math.max(...numbers));
+// console.log(Math.max(...numbers));
 
-const sahislar = {
-    sahis1: {
-      name: "Can",
-      surname: "Canan",
-      dob: "1990",
-      job: "developer",
-      salary: "140000",
-      drivingLicense: true,
-    },
-    sahis2: {
-      name: "John",
-      surname: "Sweet",
-      dob: "1990",
-      job: "tester",
-      salary: "110000",
-      drivingLicense: false,
-    },
-    sahis3: {
-      name: "Steve",
-      surname: "Job",
-      dob: "2000",
-      job: "developer",
-      salary: "90000",
-      drivingLicense: true,
-    },
-  }
+// const sahislar = {
+//     sahis1: {
+//       name: "Can",
+//       surname: "Canan",
+//       dob: "1990",
+//       job: "developer",
+//       salary: "140000",
+//       drivingLicense: true,
+//     },
+//     sahis2: {
+//       name: "John",
+//       surname: "Sweet",
+//       dob: "1990",
+//       job: "tester",
+//       salary: "110000",
+//       drivingLicense: false,
+//     },
+//     sahis3: {
+//       name: "Steve",
+//       surname: "Job",
+//       dob: "2000",
+//       job: "developer",
+//       salary: "90000",
+//       drivingLicense: true,
+//     },
+//   }
 
-  for (let s in sahislar){
-    console.log(s);
-    console.log(sahislar[s]);
-    console.log(sahislar[s].salary);
-  }
+//   for (let s in sahislar){
+//     console.log(s);
+//     console.log(sahislar[s]);
+//     console.log(sahislar[s].salary);
+//   }
 
-  console.log(Object.keys(sahislar));
-  console.log(Object.values(sahislar.sahis2));
-  console.log(Object.entries(sahislar));
-  console.log(Object.entries(sahislar.sahis2));
+//   console.log(Object.keys(sahislar));
+//   console.log(Object.values(sahislar.sahis2));
+//   console.log(Object.entries(sahislar));
+//   console.log(Object.entries(sahislar.sahis2));
 
-  for (let key of Object.keys(sahislar)){
-    console.log(key);
-    console.log(sahislar[key].salary);
-  }
+//   for (let key of Object.keys(sahislar)){
+//     console.log(key);
+//     console.log(sahislar[key].salary);
+//   }
 
-  function multiply (factor, ...numbers){
-    return numbers.map(num=> num*factor)
-  }
+//   function multiply (factor, ...numbers){
+//     return numbers.map(num=> num*factor)
+//   }
 
-  const result = multiply(2,3,4,5)
-  console.log(result);
+//   const result = multiply(2,3,4,5)
+//   console.log(result);
 
 
-let object = {'myName': 'Ant', 'myAge':30}
-let objectTwo = {'myAge':675}
-let newObject = {...object, ...objectTwo}
-console.log(newObject);
+// let object = {'myName': 'Ant', 'myAge':30}
+// let objectTwo = {'myAge':675}
+// let newObject = {...object, ...objectTwo}
+// console.log(newObject);
 
