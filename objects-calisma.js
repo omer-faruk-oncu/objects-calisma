@@ -187,79 +187,79 @@
 // const [kisi1,kisi2] = people
 // console.log(kisi1, kisi2);
 
-const araclar = ["Kamyon", "Tır", "Kamyonet", "Araba", "ATV", "Minübüs"]
+// const araclar = ["Kamyon", "Tır", "Kamyonet", "Araba", "ATV", "Minübüs"]
 
-const [arac1,arac2,...geriArac] = araclar 
+// const [arac1,arac2,...geriArac] = araclar 
 
-console.log(arac1,arac2);
-console.log(arac2);
-console.log(geriArac);
+// console.log(arac1,arac2);
+// console.log(arac2);
+// console.log(geriArac);
 
-const person = {
-    ad: "Hazel",
-    soyad: "Nut",
-    is: "team lead",
-    yas: 40,
-  }
+// const person = {
+//     ad: "Hazel",
+//     soyad: "Nut",
+//     is: "team lead",
+//     yas: 40,
+//   }
 
-const {ad,soyad,...diger} = person
+// const {ad,soyad,...diger} = person
 
-console.log(ad,soyad);
-console.log(diger);
+// console.log(ad,soyad);
+// console.log(diger);
 
-const topla = (a,b) => a+b
+// const topla = (a,b) => a+b
 
-console.log(topla(1,5,2,7,9));
+// console.log(topla(1,5,2,7,9));
 
-const toplam = (...sayilar) => {
-    return sayilar.reduce((a,b)=> a+b)
-}
+// const toplam = (...sayilar) => {
+//     return sayilar.reduce((a,b)=> a+b)
+// }
 
-console.log(toplam(1,5,2,7,9));
+// console.log(toplam(1,5,2,7,9));
 
-const ucanAraclar = ["helicopter", "drone", "ucak", "fuze"]
-const karaAracları = ["araba", "bisiklet", "marti"]
+// const ucanAraclar = ["helicopter", "drone", "ucak", "fuze"]
+// const karaAracları = ["araba", "bisiklet", "marti"]
 
-const tasitlar = [ucanAraclar, karaAracları]
-console.log(tasitlar);
+// const tasitlar = [ucanAraclar, karaAracları]
+// console.log(tasitlar);
 
-const flatTasitlar = [...ucanAraclar, ...karaAracları]
-console.log(flatTasitlar);
+// const flatTasitlar = [...ucanAraclar, ...karaAracları]
+// console.log(flatTasitlar);
 
-const cumle = "Uzun ince bir yoldayim"
-const cumleDizi = [...cumle]
-console.log(cumleDizi);
+// const cumle = "Uzun ince bir yoldayim"
+// const cumleDizi = [...cumle]
+// console.log(cumleDizi);
 
-const numbers = [1, 3, 4, 5]
-console.log(...numbers);
-console.log(Math.max(...numbers));
+// const numbers = [1, 3, 4, 5]
+// console.log(...numbers);
+// console.log(Math.max(...numbers));
 
-const sahislar = {
-    sahis1: {
-      name: "Can",
-      surname: "Canan",
-      dob: "1990",
-      job: "developer",
-      salary: "140000",
-      drivingLicense: true,
-    },
-    sahis2: {
-      name: "John",
-      surname: "Sweet",
-      dob: "1990",
-      job: "tester",
-      salary: "110000",
-      drivingLicense: false,
-    },
-    sahis3: {
-      name: "Steve",
-      surname: "Job",
-      dob: "2000",
-      job: "developer",
-      salary: "90000",
-      drivingLicense: true,
-    },
-  }
+// const sahislar = {
+//     sahis1: {
+//       name: "Can",
+//       surname: "Canan",
+//       dob: "1990",
+//       job: "developer",
+//       salary: "140000",
+//       drivingLicense: true,
+//     },
+//     sahis2: {
+//       name: "John",
+//       surname: "Sweet",
+//       dob: "1990",
+//       job: "tester",
+//       salary: "110000",
+//       drivingLicense: false,
+//     },
+//     sahis3: {
+//       name: "Steve",
+//       surname: "Job",
+//       dob: "2000",
+//       job: "developer",
+//       salary: "90000",
+//       drivingLicense: true,
+//     },
+//   }
 
 //   console.log(sahislar);
 
@@ -269,20 +269,84 @@ const sahislar = {
 //   const {salary} = sahis1
 //   console.log(salary);
 
-for (let s in sahislar) {
-    // console.log(s);
-    console.log(sahislar[s].job);
-}
+// for (let s in sahislar) {
+//     // console.log(s);
+//     console.log(sahislar[s].job);
+// }
 
-console.log(Object.keys(sahislar.sahis3));
-console.log(Object.values(sahislar));
-console.log(Object.entries(sahislar.sahis3));
+// console.log(Object.keys(sahislar.sahis3));
+// console.log(Object.values(sahislar));
+// console.log(Object.entries(sahislar.sahis3));
 
-for (let key of Object.keys(sahislar)) {
-    // console.log(key);
-    console.log(sahislar[key].job);
-}
-for (let value of Object.values(sahislar)) {
-    // console.log(value);
-    console.log(value.name);
- }
+// for (let key of Object.keys(sahislar)) {
+//     // console.log(key);
+//     console.log(sahislar[key].job);
+// }
+// for (let value of Object.values(sahislar)) {
+//     // console.log(value);
+//     console.log(value.name);
+//  }
+
+// let emptyObject = new Object()
+// console.log(emptyObject);
+
+// function isimFormatla(ad, soyad){
+//     return `${soyad[0].toLocaleUpperCase()+soyad.slice(1)}, ${ad[0].toLocaleUpperCase()+ad.slice(1)}`
+// }
+// const format = isimFormatla('Ali', 'Yılmaz')
+// console.log(format);
+
+// const text = 'Pijamalı hasta, yağız şoföre çabucak güvendi.'
+
+// const chars = {
+
+// }
+
+// const newText = text.replace(/[çÇğĞıİöÖşŞüÜ]/g,(char)=>{
+//     console.log(char);
+  
+// })
+// console.log(newText);
+
+// function replaceToEngText(str){
+
+
+
+
+//     return;
+// }
+
+// emptyObject = {}
+// console.log(object);
+
+const products = [
+    { name: "Product 1", price: 20, category: "Electronics" },
+    { name: "Product 2", price: 30, category: "Clothes" },
+    { name: "Product 3", price: 40, category: "Electronics" },
+    { name: "Product 4", price: 50, category: "Clothes" },
+    { name: "Product 5", price: 60, category: "Clothes" },
+    { name: "Product 6", price: 70, category: "Electronics" },
+    { name: "Product 7", price: 80, category: "Clothes" },
+    { name: "Product 8", price: 90, category: "Electronics" },
+    ];
+    /* Use map to create an object with category as the key
+    and an array of products as the value */
+    const productsByCategory = products.reduce((acc, product) => {
+    const category = product.category;
+    if (!acc[category]) {
+    acc[category] = [];
+    }
+    acc[category].push(product);
+    return acc;
+    }, {});
+    // Use map to calculate the average price for each category
+    const avgPriceByCategory = Object.keys(productsByCategory).map(category => {
+    const sum = productsByCategory[category].reduce((acc, product) => acc +
+    product.price, 0);
+    return { category: category, average: sum / productsByCategory[category].length
+    };
+    });
+    // Use filter to only select categories with an average above a certain threshold
+    const highPricedCategories = avgPriceByCategory.filter(category => category.average
+    > 50);
+    console.log(highPricedCategories)
